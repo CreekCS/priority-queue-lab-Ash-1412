@@ -25,7 +25,7 @@ public class PriorityQueueLab
         }
         catch (Exception e)
         {
-            System.out.println("Error");
+            System.out.println("Error- something is wrong with your file");
         }
 
         System.out.println("Contents: " + smolToLarge);
