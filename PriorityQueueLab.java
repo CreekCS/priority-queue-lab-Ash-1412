@@ -28,7 +28,11 @@ public class PriorityQueueLab
             System.out.println("Error- something is wrong with your file");
         }
 
-        System.out.println("Contents: " + smolToLarge);
+        System.out.println("Contents: ");
+        for(int num : smolToLarge)
+        {
+            System.out.println(num);
+        }
     }
   
 }
